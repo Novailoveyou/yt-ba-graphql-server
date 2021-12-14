@@ -1,0 +1,32 @@
+{
+  "name": "yt-ba-graphql-server",
+  "version": "1.0.0",
+  "description": "This is me following Ben Awad's [youtube video](https://youtu.be/YFkJGEefgU8)",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node -- src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Novailoveyou/yt-ba-graphql-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Novailoveyou/yt-ba-graphql-server/issues"
+  },
+  "homepage": "https://github.com/Novailoveyou/yt-ba-graphql-server#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.5",
+    "@babel/node": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "apollo-server": "^3.5.0",
+    "express": "^4.17.1",
+    "graphql": "^16.1.0"
+  }
+}
